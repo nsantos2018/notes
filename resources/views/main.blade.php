@@ -10,7 +10,7 @@
 
     <h1>View em Blade!</h1>
     <hr>
-    <h3> Valor informado => <?= $value ?></h3>
+    <h3> Valor informado => {{$value}} </h3>
     
 </body>
 </html>
