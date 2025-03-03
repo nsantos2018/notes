@@ -8,4 +8,8 @@ Route::get('/', function () {
     echo "<h1>Meu estudo em Laravel!</h1>";
 });
 
-Route::get('/main', [MainController::class, 'index']);
+//sem parâmetros
+//Route::get('/main', [MainController::class, 'index']);
+
+//com parâmetros 
+Route::get('/main/{value}', [MainController::class, 'index']);
