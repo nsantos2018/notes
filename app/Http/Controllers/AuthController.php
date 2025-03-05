@@ -15,4 +15,12 @@ class AuthController extends Controller
     {
         echo "logout";
     }
+
+    public function loginSubmit(Request $request)
+    {
+        //dd($request);
+        echo $request->input('text_username');
+        echo '<br>';
+        echo $request->input('text_password');
+    }
 }
